@@ -11,7 +11,7 @@ export function TypographyH1({
   return (
     <h1
       className={cn(
-        "scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl",
+        "scroll-m-20 text-9xl font-extrabold tracking-tight lg:text-5xl",
         className
       )}
     >
@@ -30,7 +30,7 @@ export function TypographyH2({
   return (
     <h2
       className={cn(
-        "scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0",
+        "scroll-m-20 border-b pb-2 text-7xl font-semibold tracking-tight first:mt-0",
         className
       )}
     >
@@ -49,7 +49,7 @@ export function TypographyH3({
   return (
     <h3
       className={cn(
-        "scroll-m-20 text-2xl font-semibold tracking-tight",
+        "scroll-m-20 text-5xl font-semibold tracking-tight",
         className
       )}
     >
@@ -68,7 +68,7 @@ export function TypographyH4({
   return (
     <h3
       className={cn(
-        "scroll-m-20 text-xl font-semibold tracking-tight",
+        "scroll-m-20 text-3xl font-semibold tracking-tight",
         className
       )}
     >
@@ -169,7 +169,7 @@ export function TypographyLead({
   className?: string;
 }) {
   return (
-    <p className={cn("text-xl text-muted-foreground", className)}>{children}</p>
+    <p className={cn("text-3xl text-muted-foreground", className)}>{children}</p>
   );
 }
 
@@ -181,7 +181,7 @@ export function TypographyLarge({
   className?: string;
 }) {
   return (
-    <div className={cn("text-lg font-semibold", className)}>{children}</div>
+    <div className={cn("text-x1 font-semibold", className)}>{children}</div>
   );
 }
 
@@ -193,7 +193,7 @@ export function TypographySmall({
   className?: string;
 }) {
   return (
-    <small className={cn("text-sm font-medium leading-none", className)}>
+    <small className={cn("text-lg font-medium leading-none", className)}>
       {children}
     </small>
   );
@@ -207,7 +207,7 @@ export function TypographyMuted({
   className?: string;
 }) {
   return (
-    <p className={cn("text-sm text-muted-foreground", className)}>{children}</p>
+    <p className={cn("text-lg text-muted-foreground", className)}>{children}</p>
   );
 }
 
@@ -219,7 +219,7 @@ export function TypographyFieldName({
   className?: string;
 }) {
   return (
-    <p className={cn("text-sm font-medium leading-none ", className)}>
+    <p className={cn("text-lg font-medium leading-none ", className)}>
       {children}
     </p>
   );
